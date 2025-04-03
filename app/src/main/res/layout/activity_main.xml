@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_financetracker"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:autofillHints=""
+       android:importantForAutofill="no"
+       android:text="@string/enter_your_income"
+       android:textSize="18sp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/incomeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:hint="@string/income"
+        android:importantForAccessibility="yes"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_total_expenses"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/expensesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:hint="@string/total_expenses"
+        android:importantForAccessibility="yes"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+<!-- Calculate Button -->
+<Button
+    android:id="@+id/calculateButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/calculate"
+    android:layout_marginTop="16dp"
+    tools:ignore="VisualLintButtonSize" />
+
+<!-- Output Section -->
+<TextView
+    android:id="@+id/balanceText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/balance"
+    android:textSize="18sp"
+    android:layout_marginTop="20dp"/>
+
+<TextView
+    android:id="@+id/feedbackText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/feedback"
+    android:textSize="18sp"
+    android:layout_marginTop="10dp"/>
+
+<TextView
+    android:id="@+id/categoryFeedback"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/expense_feedback"
+    android:textSize="18sp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"/>
+
+</LinearLayout>

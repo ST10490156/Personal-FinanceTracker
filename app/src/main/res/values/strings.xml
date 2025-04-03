@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Personal Finance Tracker</string>
+    <string name="personal_finance_tracker">Personal Finance Tracker</string>
+    <string name="income">Income</string>
+    <string name="enter_your_income">Enter your income:</string>
+    <string name="enter_your_total_expenses">Enter your total expenses:</string>
+    <string name="balance">Balance:</string>
+    <string name="calculate">Calculate</string>
+    <string name="expense_feedback">Expense Feedback:</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="feedback">Feedback:</string>
+    <string name="personal_financetracker">Personal Finance Tracker</string>
+</resources>
