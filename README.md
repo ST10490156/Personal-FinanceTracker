@@ -6,6 +6,6 @@ IF the amount the user is spending is lower the the amount displayed a text mess
 
 [screenshot 2:https://github.com/ST10490156/Personal-FinanceTracker/blob/732db97a0aa0aa74541537c5e825a410df027df3/Screenshot%20FINANCE%202.png]
 ----
-In this screenshot it shows the function that indicates that if the the expense percentage is either 50% or 
+In this screenshot it shows the function that indicates that if the the expense percentage is 50% the user is more income but if the user expense percentage is 20% they are using less of their income.
 
 
